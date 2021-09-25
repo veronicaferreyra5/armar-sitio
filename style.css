@@ -1,6 +1,19 @@
+:root{ 
+    --naranja: #F90;    
+    --negro: #000;
+    --negro2: #27262b;
+    --blanco: #FFF;
+}
+/* - Esto es declarar las variables y asignarles un valor
+- Las variables guardan valores en
+la memoria del navegador, esto permite 
+reutilizarlas y ordenar mejor mi codigo*/
+                              
+
 body{
-    background-color: aqua;
+    background-color: var(--negro2); 
     background-image: url('images/pattern.jpg');
+    font-family: Arial, Helvetica, sans-serif;
     /*Imagen que cubra el 100% del fondo pero sin perder 
     proporción backrground-size: cover */
     /* Repetir en x y o no repetir - background- repeat: 
@@ -10,13 +23,29 @@ body{
     no carga la imagen */
 }
 
-
 .cabecera, 
 .contenedor{
     max-width: 1000px;
     margin: auto;
 }
 
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+
+}
+
+
+.cabecera h1{
+    color: var(--naranja);
+    font-size: 24px;
+
+}
+
 .contenedor{
-    background-color: white;
+    background-color: var(--blanco);
+    
+
 }
