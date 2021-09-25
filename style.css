@@ -46,6 +46,10 @@ body{
 
 .contenedor{
     background-color: var(--blanco);
-    
+    border-radius: 8px 8px 0 0;
+}
 
+.nav{
+    background-color: var(--naranja);
+    border-radius: 8px 8px 0 0;
 }
