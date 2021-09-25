@@ -1,13 +1,13 @@
 body{
-    /* Poner color de fondo para usuarios con mal 
-    internet o si 
-    no carga la imagen */
     background-color: aqua;
     background-image: url('images/pattern.jpg');
     /*Imagen que cubra el 100% del fondo pero sin perder 
     proporción backrground-size: cover */
-    /* Repetir en x y o no repetir - background- repeat: repeat-y */
-
+    /* Repetir en x y o no repetir - background- repeat: 
+    repeat-y */
+    /* Poner color de fondo para usuarios con mal 
+    internet o si 
+    no carga la imagen */
 }
 
 
