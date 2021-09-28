@@ -1,5 +1,6 @@
 :root{ 
-    --naranja: #F90;    
+    --naranja: #F90;
+    --amarillo: rgb(255, 217, 0);    
     --negro: #000;
     --negro2: #27262b;
     --blanco: #FFF;
@@ -8,7 +9,13 @@
 - Las variables guardan valores en
 la memoria del navegador, esto permite 
 reutilizarlas y ordenar mejor mi codigo*/
-                              
+
+/* Resetar algunos valores predeterminados del navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}                       
 
 body{
     background-color: var(--negro2); 
@@ -49,7 +56,46 @@ body{
     border-radius: 8px 8px 0 0;
 }
 
+/* ----------------------------------------------------------------
+                        Navegacion
+-------------------------------------------------------------------- */
+
 .nav{
     background-color: var(--naranja);
     border-radius: 8px 8px 0 0;
+    
+}
+
+.nav-lista{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.nav-lista_item{
+    background-color: var(--naranja);
+    flex-grow: 1;
+    border-right: 1px solid var(--amarillo);
+    text-align: center;
+    
+}
+
+.nav-link{
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+
+.nav-form{
+    background-color: var(--naranja)
 }
