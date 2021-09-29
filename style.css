@@ -111,5 +111,31 @@ body{
 .imagen {
     text-align: center;
     margin-bottom: var(--espacio);
+}
+/* ----------------------------------------------------------------
+               Pricipal
+------------------------------------------------------*/
 
+.principal {
+    background-color: brown;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: var(--espacio);
+
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px; 
+    
+}
+/* ----------------------------------------------------------------
+                Categorias
+------------------------------------------------------*/
+.categorias {
+    background-color: blue;
+}
+/* ----------------------------------------------------------------
+                Categorias
+-----------------------------------------------------*/
+.productos{
+    background-color: blueviolet;
 }
