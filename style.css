@@ -117,25 +117,44 @@ body{
 ------------------------------------------------------*/
 
 .principal {
-    background-color: brown;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: var(--espacio);
-
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 20px; 
-    
-}
-/* ----------------------------------------------------------------
-                Categorias
-------------------------------------------------------*/
+        background-color: var(--blanco);
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: var(--espacio);
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+​
+​
+​
+/*
+    -------------------------------------
+            Categorias
+    -------------------------------------
+*/
 .categorias {
-    background-color: blue;
+    background-color: darkgreen;
 }
-/* ----------------------------------------------------------------
-                Categorias
------------------------------------------------------*/
-.productos{
-    background-color: blueviolet;
+​
+​
+/*
+    -------------------------------------
+            Productos
+    -------------------------------------
+*/
+.productos {
+    background-color: var(--blanco);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.lampara-titulo {
+    margin-bottom: 20px;
+}
+.lampara-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
